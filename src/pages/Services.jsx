@@ -165,7 +165,7 @@ function Services() {
                     <h3 className="text-2xl font-bold mb-3">Initial Consultation</h3>
                     <p className="text-gray-600">We begin by understanding your vision, requirements, and objectives through detailed discussions and site visits.</p>
                     </div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10">
+                    <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10 mx-auto mb-8 md:mb-0">
                     <span className="font-bold">1</span>
                     </div>
                     <div className="md:w-1/2 md:pl-12"></div>
@@ -173,7 +173,7 @@ function Services() {
                 
                 <div className="relative flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 md:pr-12"></div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10">
+                    <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10 mx-auto mb-8 md:mb-0">
                     <span className="font-bold">2</span>
                     </div>
                     <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0">
@@ -187,7 +187,7 @@ function Services() {
                     <h3 className="text-2xl font-bold mb-3">Pre-Construction</h3>
                     <p className="text-gray-600">We handle permits, establish timelines, secure materials, and prepare the site to ensure a smooth construction process.</p>
                     </div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10">
+                    <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10 mx-auto mb-8 md:mb-0">
                     <span className="font-bold">3</span>
                     </div>
                     <div className="md:w-1/2 md:pl-12"></div>
@@ -195,7 +195,7 @@ function Services() {
                 
                 <div className="relative flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 md:pr-12"></div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10">
+                    <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10 mx-auto mb-8 md:mb-0">
                     <span className="font-bold">4</span>
                     </div>
                     <div className="md:w-1/2 md:pl-12 mb-8 md:mb-0">
@@ -209,7 +209,7 @@ function Services() {
                     <h3 className="text-2xl font-bold mb-3">Quality Assurance</h3>
                     <p className="text-gray-600">Rigorous inspections and quality control measures are implemented at every stage to ensure excellence in execution.</p>
                     </div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10">
+                    <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10 mx-auto mb-8 md:mb-0">
                     <span className="font-bold">5</span>
                     </div>
                     <div className="md:w-1/2 md:pl-12"></div>
@@ -217,7 +217,7 @@ function Services() {
                 
                 <div className="relative flex flex-col md:flex-row items-center">
                     <div className="md:w-1/2 md:pr-12"></div>
-                    <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10">
+                    <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white z-10 mx-auto mb-8 md:mb-0">
                     <span className="font-bold">6</span>
                     </div>
                     <div className="md:w-1/2 md:pl-12">
