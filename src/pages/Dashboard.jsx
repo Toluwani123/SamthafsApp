@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import {api} from '../api';
 import { FaPencilAlt, FaTrash, FaPlus, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Dashboard() {
   // --- TABS ---
@@ -444,7 +445,7 @@ export default function Dashboard() {
     <div className="min-h-screen bg-gray-100 font-sans text-gray-800">
       {/* TAB NAV */}
       <div className="bg-white shadow">
-        <nav className="container mx-auto px-6 flex space-x-4">
+        <nav className="container mx-auto px-6 flex space-x-4 items-center">
           {tabs.map(tab => (
             <button
               key={tab}
@@ -458,6 +459,12 @@ export default function Dashboard() {
               {tab.charAt(0).toUpperCase() + tab.slice(1)}
             </button>
           ))}
+          <Link
+            to="/"
+            className="ml-auto py-4 px-6 font-medium text-blue-600 hover:text-blue-800"
+          >
+            Back to Home
+          </Link>
         </nav>
       </div>
 
