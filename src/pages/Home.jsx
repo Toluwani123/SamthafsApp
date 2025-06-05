@@ -226,7 +226,7 @@ function Home() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {filteredProjects.map((project) => (
-                            <div key={project.id} className="group relative overflow-hidden rounded-lg shadow-lg bg-white transition-transform duration-300 hover:-translate-y-2">
+                            <Link key={project.id} to={`/projects/${project.id}`} className="group relative overflow-hidden rounded-lg shadow-lg bg-white transition-transform duration-300 hover:-translate-y-2">
                                 <div className="h-64 overflow-hidden">
                                     <img
                                         src={project.main_image}
@@ -239,7 +239,7 @@ function Home() {
                                     <p className="text-blue-200 mb-2">{project.category.charAt(0).toUpperCase() + project.category.slice(1)}</p>
                                     <div className="flex justify-between text-white text-sm mt-2">
                                         <span><FaMapMarkerAlt className='mr-2' />{project.location}</span>
-                                        <span><FaClock/>{duration(project.start_date, project.completion_date)}</span>
+                                        <span><FaClock />{duration(project.start_date, project.completion_date)}</span>
                                     </div>
                                     <Link to={`/projects/${project.id}`} className="!rounded-button whitespace-nowrap mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium transition-colors inline-block cursor-pointer">
                                         View Project
@@ -253,7 +253,7 @@ function Home() {
                                         <span><FaClock className='mr-2' />{duration(project.start_date, project.completion_date)}</span>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                 </div>
